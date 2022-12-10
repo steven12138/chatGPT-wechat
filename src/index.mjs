@@ -3,6 +3,8 @@ import qrcodeTerminal from 'qrcode-terminal'
 import {ChatGPTAPI} from "chatgpt";
 import {oraPromise} from "ora";
 
+// change from https://github.com/AutumnWhj/ChatGPT-wechat-bot
+
 let token = ''
 
 let api = new ChatGPTAPI({
